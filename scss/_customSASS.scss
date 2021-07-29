@@ -1,0 +1,254 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+//NAV
+
+    //NAVBAR
+    .navbar {
+        background: $green;
+    }
+    //LOGO
+    .navbar-brand__image {
+        width: 5.375rem;
+    }
+    //SEARCHBAR
+    .searchbar{
+        margin-bottom: auto;
+        margin-top: auto;
+        height: 60px;
+        background-color: $white;
+        border-radius: 30px;
+        padding: 10px;
+        }
+
+        .search_input{
+        color: black;
+        border: 0;
+        outline: 0;
+        background: none;
+        width: 0;
+        caret-color:transparent;
+        line-height: 40px;
+        transition: width 0.4s linear;
+        }
+
+        .searchbar:hover > .search_input{
+        padding: 0 10px;
+        width: 450px;
+        caret-color:black;
+        transition: width 0.4s linear;
+        }
+    //NAVBAR TEXT
+    .navbar-link__style {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+//FOOTER
+
+    .footer{
+        background: $green;
+    }
+    //INFORMATION
+    .footer__information {
+        color: $white;
+        font-size: 1.125rem;
+        font-weight: 400;
+    }
+    @media only screen and (max-width: 576px) {
+        .footer__information{ font-size: 0.625rem;}
+    }
+    //MAP
+    .footer-map__header {
+        color: $white;
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+
+//INDEX PAGE
+
+    //BUYING INFORMATION
+
+        //@EACH FOR TYPOGRAPHY
+        @each $section in shipping,payment, safety {
+            .buyingInformation__#{$section}--style {
+                color: $beige;
+            }
+        }
+        //TYPOGRAPHY H2
+        .buyingInformation__title--style {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        //TYPOGRAPHY SMALL
+        .buyingInformation__subtitle {
+            font-size: 1.125rem;
+            font-weight: 300;
+        }
+
+    //FEATURED PRODUCTS
+
+        //GENERAL CONTAINER
+        .featuredProducts {
+            background: $green
+        }
+        //TITLE STYLES
+        .featuredProducts__title--style {
+            color: $white;
+            font-size: 3.125rem;
+            font-weight: 800;
+        }
+        //SUBTITLE STYLES
+        .featuredProducts__subtitle--style {
+            color: $lightgray;
+            font-size: 1.5rem;
+            font-weight: 400;
+        }
+        //PRODUCT TEXT STYLE
+        .featuredProducts__productText {
+            color: $white;
+            font-size: 1.5rem;
+            font-weight: 400;
+        }
+
+    //CATEGORIES
+
+        //@EACH FOR TYPOGRAPHY
+        @each $section in muebles,textiles,decoracion {
+            .cardTitle__#{$section} {
+                color: $white;
+                font-weight: 600;
+            }
+        }
+
+// ONLINE SHOP
+
+    //ONLINE SHOP TITLE
+    .onlineShop__title {
+        color: $beige;
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+    //ONLINE SHOP PRODUCT TITLE
+    .onlineShop__productTitle {
+        color: $beige;
+        font-size: 1.125rem;
+        font-weight: 400;
+    }
+    .onlineShop__productTitle:hover {
+        color: $green;
+    }
+    //ONLINE PAGE SELECTOR
+    .onlineShop__pageSelectorItem {
+        color: $beige;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+    .onlineShop__pageSelectorItem:hover {
+        color: $green;
+    }
+    .onlineShop__pageSelectorItem:active {
+        color: $green;
+    }
+
+//PRODUCT ONE
+
+    //PRODUCT ONE IMAGE
+    .productOne__image {
+        min-height: 25rem;
+    }
+    //PRODUCT ONE TITLE
+    .productOne__title {
+        font-size: 3rem;
+        font-weight: 400;
+    }
+    //PRODUCT ONE PRICE
+    .productOne__price {
+        color: $green;
+        font-size: 3rem;
+        font-weight: 400;
+    }
+    //PRODUCT ONE FEATURES
+    .productOne__features {
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    //PRODUCT ONE BUY BOTTON
+    .productOne__buyButton {
+        background-color: $green;
+        display: inline-block;
+        cursor: pointer;
+        color: $white;
+        font-size: 1.25rem;
+        padding: 0.75rem 0.625rem;
+        text-decoration: none;
+        margin-top: 0.625rem;
+    }
+    .productOne__buyButton:hover {
+        color: $lightgray
+    }
+
+//HOW TO BUY
+
+    //HOW TO BUY TITLE
+    .howToBuy__title {
+        color: $beige;
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+
+    //HOW TO BUY TEXT
+    .howToBuy__text {
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+//CONTACT
+
+    //CONTACT TITLE
+    .contact__title {
+        color: $beige;
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+
+    //CONTACT SUBTITLE
+    .contact__subtitle {
+        color: $lightgray;
+        font-size: 1.125rem;
+        font-weight: 600;
+    }
+
+    //CONTACT FORM
+    .contact__form {
+        max-width: 25rem;
+        border: none;
+        background: $white;
+        color: $lightgray;
+    }
+
+        //SUBMIT BUTTON
+        .contact__formSubmit {
+            background-color: $green;
+            color: $white;
+        }
+
+//ABOUT US
+
+    //ABOUT US TITLE
+    .aboutUs__title {
+        color: $beige;
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+
+    //ABOUT US TEXT
+    .aboutUs__Text {
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+
+
