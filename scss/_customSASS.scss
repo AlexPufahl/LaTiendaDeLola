@@ -47,6 +47,24 @@
         font-weight: 500;
     }
 
+//CAROUSEL
+
+    //CAPTION
+    .carousel-caption {
+        transform: translateY(-50%);
+        bottom: initial;
+        top: 50%;
+    }
+    //TEXT
+    .carousel-caption__text {
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+    //IMAGE
+    .carousel__image {
+        filter: brightness(80%);
+    }
+
 //FOOTER
 
     .footer{
