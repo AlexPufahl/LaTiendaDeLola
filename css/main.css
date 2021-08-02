@@ -7539,18 +7539,6 @@ textarea.form-control-lg {
   font-size: 1.5rem;
   font-weight: 500; }
 
-.carousel-caption {
-  transform: translateY(-50%);
-  bottom: initial;
-  top: 50%; }
-
-.carousel-caption__text {
-  font-size: 2.5rem;
-  font-weight: 600; }
-
-.carousel__image {
-  filter: brightness(80%); }
-
 .footer {
   background: #396A53; }
 
@@ -7567,6 +7555,18 @@ textarea.form-control-lg {
   color: #FAFAFA;
   font-size: 1.5rem;
   font-weight: 800; }
+
+.carousel-caption {
+  transform: translateY(-50%);
+  bottom: initial;
+  top: 50%; }
+
+.carousel-caption__text {
+  font-size: 2.5rem;
+  font-weight: 600; }
+
+.carousel__image {
+  filter: brightness(80%); }
 
 .buyingInformation__shipping--style {
   color: #B59673; }
@@ -7614,6 +7614,9 @@ textarea.form-control-lg {
 .cardTitle__decoracion {
   color: #FAFAFA;
   font-weight: 600; }
+
+.category__image {
+  filter: brightness(80%); }
 
 .onlineShop__title {
   color: #B59673;
