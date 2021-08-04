@@ -7566,7 +7566,9 @@ textarea.form-control-lg {
   font-weight: 600; }
 
 .carousel__image {
-  filter: brightness(80%); }
+  filter: brightness(80%);
+  height: 23.438rem;
+  object-fit: cover; }
 
 .buyingInformation__shipping--style {
   color: #B59673; }
