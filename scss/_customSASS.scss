@@ -147,6 +147,7 @@
         //IMAGE
         .category__image {
             filter: brightness(80%);
+            object-fit: cover;
         }
 
 

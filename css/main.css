@@ -7618,7 +7618,8 @@ textarea.form-control-lg {
   font-weight: 600; }
 
 .category__image {
-  filter: brightness(80%); }
+  filter: brightness(80%);
+  object-fit: cover; }
 
 .onlineShop__title {
   color: #B59673;
