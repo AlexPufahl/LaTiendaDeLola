@@ -7711,3 +7711,9 @@ textarea.form-control-lg {
 .aboutUs__Text {
   font-size: 1.5rem;
   font-weight: 400; }
+
+.grow {
+  transition: all .2s ease-in-out; }
+
+.grow:hover {
+  transform: scale(1.1); }
