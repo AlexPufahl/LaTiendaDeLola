@@ -181,30 +181,30 @@
         color: $green;
     }
 
-//PRODUCT ONE
+//PRODUCT
 
-    //PRODUCT ONE IMAGE
-    .productOne__image {
+    //PRODUCT IMAGE
+    .product__image {
         min-height: 25rem;
     }
-    //PRODUCT ONE TITLE
-    .productOne__title {
+    //PRODUCT TITLE
+    .product__title {
         font-size: 3rem;
         font-weight: 400;
     }
-    //PRODUCT ONE PRICE
-    .productOne__price {
+    //PRODUCT PRICE
+    .product__price {
         color: $green;
         font-size: 3rem;
         font-weight: 400;
     }
-    //PRODUCT ONE FEATURES
-    .productOne__features {
+    //PRODUCT FEATURES
+    .product__features {
         font-size: 1.5rem;
         font-weight: 400;
     }
-    //PRODUCT ONE BUY BOTTON
-    .productOne__buyButton {
+    //PRODUCT BUY BOTTON
+    .product__buyButton {
         background-color: $green;
         display: inline-block;
         cursor: pointer;
@@ -214,7 +214,7 @@
         text-decoration: none;
         margin-top: 0.625rem;
     }
-    .productOne__buyButton:hover {
+    .product__buyButton:hover {
         color: $lightgray
     }
 

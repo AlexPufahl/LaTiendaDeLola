@@ -7645,23 +7645,23 @@ textarea.form-control-lg {
 .onlineShop__pageSelectorItem:active {
   color: #396A53; }
 
-.productOne__image {
+.product__image {
   min-height: 25rem; }
 
-.productOne__title {
+.product__title {
   font-size: 3rem;
   font-weight: 400; }
 
-.productOne__price {
+.product__price {
   color: #396A53;
   font-size: 3rem;
   font-weight: 400; }
 
-.productOne__features {
+.product__features {
   font-size: 1.5rem;
   font-weight: 400; }
 
-.productOne__buyButton {
+.product__buyButton {
   background-color: #396A53;
   display: inline-block;
   cursor: pointer;
@@ -7671,7 +7671,7 @@ textarea.form-control-lg {
   text-decoration: none;
   margin-top: 0.625rem; }
 
-.productOne__buyButton:hover {
+.product__buyButton:hover {
   color: #C4C4C4; }
 
 .howToBuy__title {
